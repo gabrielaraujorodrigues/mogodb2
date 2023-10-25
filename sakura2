@@ -1,0 +1,9 @@
+realm-cli pull --remote=application-0-wmekw
+
+mv Application-0/* . && rm -r Application-0
+
+git add .
+
+git commit
+
+git push origin master
